@@ -15,6 +15,7 @@
 		CF09A93820F5D680007879BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09A93720F5D680007879BC /* main.m */; };
 		CF09A94220F5D680007879BC /* GestureLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09A94120F5D680007879BC /* GestureLockTests.m */; };
 		CF09A94D20F5D680007879BC /* GestureLockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09A94C20F5D680007879BC /* GestureLockUITests.m */; };
+		CF09A95C20F5D724007879BC /* Bntview.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09A95B20F5D724007879BC /* Bntview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CF09A94820F5D680007879BC /* GestureLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF09A94C20F5D680007879BC /* GestureLockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureLockUITests.m; sourceTree = "<group>"; };
 		CF09A94E20F5D680007879BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF09A95A20F5D724007879BC /* Bntview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bntview.h; sourceTree = "<group>"; };
+		CF09A95B20F5D724007879BC /* Bntview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bntview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CF09A92920F5D67D007879BC /* AppDelegate.m */,
 				CF09A92B20F5D67D007879BC /* ViewController.h */,
 				CF09A92C20F5D67D007879BC /* ViewController.m */,
+				CF09A95A20F5D724007879BC /* Bntview.h */,
+				CF09A95B20F5D724007879BC /* Bntview.m */,
 				CF09A92E20F5D67D007879BC /* Main.storyboard */,
 				CF09A93120F5D680007879BC /* Assets.xcassets */,
 				CF09A93320F5D680007879BC /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				CF09A92D20F5D67D007879BC /* ViewController.m in Sources */,
 				CF09A93820F5D680007879BC /* main.m in Sources */,
 				CF09A92A20F5D67D007879BC /* AppDelegate.m in Sources */,
+				CF09A95C20F5D724007879BC /* Bntview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +440,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = GestureLock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +458,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = GestureLock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
