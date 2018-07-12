@@ -14,6 +14,8 @@
 @property(strong,nonatomic)UIImageView *imageview;
 @property(strong,nonatomic)Bntview *bntview;
 
+
+
 @end
 
 @implementation ViewController
@@ -22,11 +24,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Home_refresh_bg"]];
+    
+    
     UIImageView *imageview=[[UIImageView alloc]initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width-100)*0.5, 100, 100, 100)];
     [self.view addSubview:imageview];
     _imageview=imageview;
     
     Bntview *bntview=[[Bntview alloc]initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width-300)*0.5, CGRectGetMaxY(imageview.frame)+50, 300, 300)];
+    bntview.backgroundColor=[UIColor clearColor];
     bntview.delegate = self;
     [self.view addSubview:bntview];
     _bntview=bntview;

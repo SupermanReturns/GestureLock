@@ -134,8 +134,7 @@
     [self.bntarry removeAllObjects];
     //重绘
     [self setNeedsDisplay];
-    
-    
+
     //    NSLog(@"%@",strM);
 }
 
